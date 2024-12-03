@@ -1,0 +1,19 @@
+[project]
+version = "0.1.0"
+description = "This repository contains the solution for the X-HEC MLOps Project on the industrialization of Abalone age prediction model."
+authors = [
+  { name = "Charles De Cian", email = "charles.de-cian@hec.edu" },
+  { name = "Matthieu Delsart", email = "matthieu.delsart@hec.edu" },
+  { name = "Francois Lebrun", email = "francois.lebrun@hec.edu" },
+  { name = "Augustin De Saint Afrique", email = "augustin.bernard-de-saint-affrique@hec.edu" },
+]
+readme = "README.md"
+requires-python = ">=3.9"
+
+[project.urls]
+"Homepage" = "https://github.com/CharlesDc9/ML-Ops-Project-"
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.1.9"
+]
