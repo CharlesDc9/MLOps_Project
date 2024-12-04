@@ -1,6 +1,7 @@
 # Excel files
 *.xlsx
 *.xls
+*.csv
 
 # XML files
 *.xml
@@ -44,3 +45,6 @@ wheels/
 # OS
 .DS_Store
 Thumbs.db
+
+# MLflow
+mlruns/
