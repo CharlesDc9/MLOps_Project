@@ -2,7 +2,10 @@ import pickle
 from pathlib import Path
 from typing import Any
 
+from prefect import task
 
+
+@task(name="Load pickle", tags=["utils"])
 def load_pickle(path: str):
     """Load pickle object."""
     with open(path, "rb") as f:
@@ -10,6 +13,7 @@ def load_pickle(path: str):
     return loaded_obj
 
 
+@task(name="Save pickle", tags=["utils"])
 def save_pickle(path: str, obj: Any):
     """Save pickle object."""
     with open(path, "wb") as f:
