@@ -631,3 +631,4 @@ wrapt==1.17.0
     # via deprecated
 zipp==3.21.0
     # via importlib-metadata
+seaborn==0.13.2

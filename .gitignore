@@ -48,3 +48,7 @@ Thumbs.db
 
 # MLflow
 mlruns/
+
+# Model files
+*.pkl
+/model.pkl
