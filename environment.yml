@@ -1,0 +1,10 @@
+name: mlops-project
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip=23.2.1
+  - pip-tools=7.3.0
+  - pip:
+    - -r requirements.txt
