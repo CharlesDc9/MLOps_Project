@@ -28,7 +28,7 @@ This project has been created as part of an MLOps class for the master's degree 
 
 It aims to demonstrate several tools used in MLOps: serialization of trainings with MLFlow, model deployment with Prefect, model prediction on API with FastAPI, and dockerization of the whole workflow.
 
-For this project, I based myself the [Abalone age prediction](https://www.kaggle.com/datasets/rodolfomendes/abalone-dataset) Kaggle contest, where the goal is predict the age of an abalone from physical measurements. The dataset is included in the repository but you can download it on the [Kaggle page](https://www.kaggle.com/datasets/rodolfomendes/abalone-dataset) if needed.
+For this project, I based myself on the [Abalone age prediction](https://www.kaggle.com/datasets/rodolfomendes/abalone-dataset) Kaggle contest, where the goal is predict the age of an abalone from physical measurements. The dataset is included in the repository but you can download it on the [Kaggle page](https://www.kaggle.com/datasets/rodolfomendes/abalone-dataset) if needed.
 
 Author:
 - Charles De Cian (@CharlesDc9)
